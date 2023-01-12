@@ -32,9 +32,19 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this,"You clicked me",Toast.LENGTH_LONG).show()
                 setContentView(R.layout.settings)
                 return true
-            }else->super.onOptionsItemSelected(item)
+            }
+            R.id.sign_out -> {
+                Toast.makeText(this,"You clicked me",Toast.LENGTH_LONG).show()
+                setContentView(R.layout.fragment_main_screen)
+                return true
+            }
+            R.id.profile -> {
+                Toast.makeText(this,"You clicked me",Toast.LENGTH_LONG).show()
+                setContentView(R.layout.fragment_main_screen)
+                return true
+            }
+            else->super.onOptionsItemSelected(item)
         }
-
 
     }
 }
