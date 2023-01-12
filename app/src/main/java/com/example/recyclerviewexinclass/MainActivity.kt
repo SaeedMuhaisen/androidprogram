@@ -37,42 +37,6 @@ class MainActivity : AppCompatActivity() {
 
 
     }
-/*
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        selectDrawerItem(item)
-        return true
-    }
-
-    fun selectDrawerItem(menuItem: MenuItem) {
-        var fragment: Fragment
-        when (menuItem.itemId) {
-            R.id.settings -> {
-                fragment = SettingsFragment()
-                supportFragmentManager.beginTransaction()
-                    .replace(R.id.settings, fragment)
-                    .commit()
-            }
-            R.id.sign_out -> {
-                fragment = SettingsFragment()
-                supportFragmentManager.beginTransaction()
-                    .replace(R.id.settings, fragment)
-                    .commit()
-            }
-            R.id.profile -> {
-                fragment = SettingsFragment()
-                supportFragmentManager.beginTransaction()
-                    .replace(R.id.settings, fragment)
-                    .commit()
-
-            }
-            else -> {
-                fragment = CreateAccountFragment()
-                supportFragmentManager.beginTransaction()
-                    .replace(R.id.settings, fragment)
-                    .commit()
-            }
-        }
-    }*/
 }
 
 
