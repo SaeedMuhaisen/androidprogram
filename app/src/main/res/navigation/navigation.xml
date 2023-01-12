@@ -1,0 +1,50 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/itemLayoutFragment"
+        android:name="com.example.recyclerviewexinclass.BlankFragment"
+        android:label="ItemLayoutFragment"
+        tools:layout="@layout/fragment_blank"/>
+    <fragment
+        android:id="@+id/createAccountFragment"
+        android:name="com.example.recyclerviewexinclass.authentication.CreateAccountFragment"
+        android:label="CreateAccountFragment" >
+        <action
+            android:id="@+id/action_createAccountFragment_to_emailPasswordFragment"
+            app:destination="@id/emailPasswordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/emailPasswordFragment"
+        android:name="com.example.recyclerviewexinclass.authentication.EmailPasswordFragment"
+        android:label="EmailPasswordFragment" >
+        <action
+            android:id="@+id/action_emailPasswordFragment_to_itemLayoutFragment"
+            app:destination="@id/itemLayoutFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.recyclerviewexinclass.MainFragment"
+        android:label="MainFragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_createAccountFragment"
+            app:destination="@id/createAccountFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_emailPasswordFragment"
+            app:destination="@id/emailPasswordFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_itemLayoutFragment"
+            app:destination="@id/itemLayoutFragment"
+            app:launchSingleTop="false"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_mainFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.recyclerviewexinclass.SettingsFragment"
+        android:label="SettingsFragment" />
+</navigation>

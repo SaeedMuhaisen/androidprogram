@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="menuu">Menu</string>
+    <string name="price">Price</string>
+    <integer-array name="image">Image</integer-array>
+
+
+    <string-array name="restaurants_array">
+        <item><u><b><i>Snob</i></b></u></item>
+        <item><u><b><i>Hot Slice</i></b></u></item>
+        <item><u><b><i>Manakin</i></b></u></item>
+        <item><u><b><i>Lokal</i></b></u></item>
+        <item><u><b><i>Harvest</i></b></u></item>
+        <item><u><b><i>Subway</i></b></u></item>
+        <item><u><b><i>Dane Yayık</i></b></u></item>
+        <item><u><b><i>Rumeli Town</i></b></u></item>
+
+    </string-array>
+    <string-array name="menuu_array">
+        <item>Classic Burger Menu\nBenji Burger Menu\nTruffle Burger Menu\nZinger Rock Burger Menu\nSnob Burger Menu\nBao Burger Menu\nSeasoned French Fries\nParmesan French Fries</item>
+        <item>Pesto Margherita Large\nAkdeniz Large\nCalifornia Large\nChicken BBQ Large\nChicken BBQ Large\nEge Large\nTrakya Large\nAmsterdam Large\nHawaii Large\nMiami Large\nBerlin Large\nSüper Karışık Large\nIbiza Large\nHot Slice Special Large\nMadness Large</item>
+        <item>Dağ Kekikli\nKöri Soslu\nBBQ Soslu\nTatlı Ekşi\nÇıtır Tavuk\nIzgara Tavuk\nMantar Soslu\nIzgara Köfte\nMushroom Burger\nCheddar Burger\nKlasik Burger\nChicken Burger\nPenne Arabiata\nSpaghetti Napolitan\nSpaghetti Bolonez\nFettucini Alfredo\nMac and Cheese</item>
+        <item>3\'lü ET Menü\n3\'lü TAVUK Menü\n3\'lü SEBZE Menü\nDöner Dürüm\nTavuk Schnitzel\nIzgara Köfte\nMantı</item>
+        <item>Kahvaltı Tabağı\nOmlet\nKaşarlı Tost\nKarışık Tost\nSimit Sandviç\nDana Jambonlu Sandviç\nBeyaz Peynirli Sandviç\nHindi Jambonlu Sandviç\nÇıtır Tavuk\nFalafel Salata\nAkdeniz Salata\nTon Balıklı Salata\nTavuk Trio\nKöfte Trio\nKıymalı Gözleme\nPatatesli Gözleme\nKaşarlı Gözleme</item>
+        <item>Teriyaki Tavuk\nİtalyan\nTavuk Fileto\nRozbif\nBaharatlı İtalyan\nBiftek ve Peynir\nSubway Melt\nTon Balığı\nHindi Göğüs\nSebze Keyfi\nDürüm</item>
+        <item>Tavuk Pilav\nKavurma Pilav\nNohutlu Pilav</item>
+        <item>Hamburger\nTavuk\nEt\nVejetaryen\nMakarna\nKahvaltı\nFırın\nWrap\nSalata</item>
+    </string-array>
+
+    <string-array name="price_array">
+        <item>70.00 TL\n80.00 TL\n80.00 TL\n90.00 TL\n90.00 TL\n90.00 TL\n40.00 TL\n40.00 TL</item>
+        <item>80.00 TL\n80.00 TL\n80.00 TL\n80.00 TL\n80.00 TL\n80.00 TL\n80.00 TL\n90.00 TL\n90.00 TL\n90.00 TL\n90.00 TL\n90.00 TL\n90.00 TL\n90.00 TL\n90.00 TL</item>
+        <item>70.00 TL\n70.00 TL\n70.00 TL\n70.00 TL\n75.00 TL\n70.00 TL\n70.00 TL\n70.00 TL\n60.00 TL\n60.00 TL\n60.00 TL\n60.00 TL\n65.00 TL\n65.00 TL\n65.00 TL\n65.00 TL\n65.00 TL</item>
+        <item>55.00 TL\n45.00 TL\n40.00 TL\n45.00 TL\n70.00 TL\n80.00 TL\n65.00 TL</item>
+        <item>30.00 TL\n25.00 TL\n20.00 TL\n25.00 TL\n25.00 TL\n35.00 TL\n30.00 TL\n40.00 TL\n50.00 TL\n60.00 TL\n55.00 TL\n60.00 TL\n60.00 TL\n60.00 TL\n60.00 TL\n60.00 TL\n60.00 TL</item>
+        <item>80.00 TL\n80.00 TL\n80.00 TL\n85.00 TL\n85.00 TL\n85.00 TL\n90.00 TL\n90.00 TL\n90.00 TL\n90.00 TL\n75.00 TL</item>
+        <item>50.00 TL\n55.00 TL\n45.00 TL</item>
+        <item>65.00 TL\n70.00 TL\n80.00 TL\n60.00 TL\n75.00 TL\n40.00 TL\n20.00 TL\n70.00 TL\n60.00 TL</item>
+
+    </string-array>
+
+    <integer-array name="image_array">
+        <item>@drawable/harvest</item>
+        <item>@drawable/snob</item>
+        <item>@drawable/snob</item>
+        <item>@drawable/snob</item>
+        <item>@drawable/snob</item>
+        <item>@drawable/snob</item>
+        <item>@drawable/snob</item>
+        <item>@drawable/snob</item>
+    </integer-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

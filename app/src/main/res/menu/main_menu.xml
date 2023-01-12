@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:All4One="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/algo"
+        android:checkable="true"
+        android:enabled="true"
+        android:icon="@drawable/iicon"
+        android:title="nose"
+        android:visible="true"
+        All4One:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/profile"
+                android:icon="@drawable/profile"
+                android:title="Profile" />
+
+            <item
+                android:id="@+id/settings"
+                android:checkable="false"
+                android:checked="false"
+                android:enabled="true"
+                android:icon="@drawable/settings"
+                android:title="Settings"
+                android:visible="true" />
+
+            <item
+                android:id="@+id/sign_out"
+                android:icon="@drawable/out"
+                android:title="Sign Out" />
+
+
+        </menu>
+    </item>
+    </menu>
