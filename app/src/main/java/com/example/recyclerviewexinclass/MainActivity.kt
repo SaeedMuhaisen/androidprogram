@@ -36,6 +36,7 @@ class MainActivity : AppCompatActivity() {
             R.id.sign_out -> {
                 Toast.makeText(this,"You clicked me",Toast.LENGTH_LONG).show()
                 setContentView(R.layout.fragment_main_screen)
+
                 return true
             }
             R.id.profile -> {
